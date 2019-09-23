@@ -9,9 +9,72 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      cross
-      origin="anonymous"
+      crossorigin="anonymous"
     />
   </head>
-  <body></body>
+  <body>
+    <div>
+      <nav class="navbar navbar-dark bg-primary ">
+        <span class="navbar-brand "><b>Profile</b></span
+        ><button form="myForm" class="color-white btn bg-transparent">
+          <i class="fas fa-check"></i>
+        </button>
+      </nav>
+      <br />
+      <div class="container">
+        <form id="myForm">
+          <div>
+            <div class="form-group mt-5">
+              <label for="username"><b>Username</b></label
+              ><input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Enter your username..."
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="email"><b>Email</b></label
+              ><input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter to edit your email..."
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="firstName"><b>First Name</b></label
+              ><input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Enter to edit your first name..."
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="lastName"><b>Last Name</b></label
+              ><input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Enter to edit your last name..."
+                class="form-control"
+              />
+            </div>
+          </div>
+          <a class="btn btn-primary btn-block" href="Websites.html">Websites</a
+          ><a class="btn btn-danger btn-block" href="/Login.html">Logout</a>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

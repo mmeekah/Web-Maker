@@ -9,11 +9,41 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      cross
-      origin="anonymous"
+      crossorigin="anonymous"
     />
   </head>
   <body>
-    hello
+    <div class="container mt-5">
+      <form>
+        <h1>Login</h1>
+        <div class="form-group font-weight-bold ">
+          <label for="exampleInputEmail1  ">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter  your email.."
+          />
+        </div>
+        <div class="form-group font-weight-bold">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder=" Enter your password.."
+          />
+        </div>
+
+        <a href="Profile.html" class="btn  btn btn-primary btn- btn-block"
+          >Login</a
+        >
+
+        <a href="Profile.html" class="btn  btn btn-success btn- btn-block"
+          >Register</a
+        >
+      </form>
+    </div>
   </body>
 </html>
