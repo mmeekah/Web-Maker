@@ -1,0 +1,17 @@
+body {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+a {
+  margin-top: 25px;
+}
+
+.form-group {
+  margin-top: 25px;
+}
+
+label {
+  margin-top: 25px;
+  font-weight: bold;
+}
