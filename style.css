@@ -4,7 +4,8 @@ body {
 }
 
 a {
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  padding: auto;
 }
 
 .form-group {
@@ -14,4 +15,26 @@ a {
 label {
   margin-top: 25px;
   font-weight: bold;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.absolute-right {
+  position: absolute;
+  right: 15px;
+  z-index: 2;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

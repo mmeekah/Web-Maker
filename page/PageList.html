@@ -15,50 +15,50 @@
       src="https://kit.fontawesome.com/dc7fe1df22.js"
       crossorigin="anonymous"
     ></script>
-    <title>Websitelist</title>
+    <title>Page List</title>
   </head>
   <body>
     <div>
-      <nav class="navbar bg-primary navbar-dark fixed-top ">
-        <a class="color-white " href="../user/Login.html"
-          ><i class="fas fa-arrow-left text-light"></i
+      <nav class="navbar navbar-light bg-light text-light fixed-top ">
+        <a class="color-white " href="../website/WebsiteList.html"
+          ><i class="fas fa-arrow-left " style="color:black"></i
         ></a>
-        <span class="navbar-brand  h1   mb-0"> <b>Websites</b></span>
-        <a class="color-white" href="WebsitesNew.html">
-          <i class="fas fa-plus text-light"></i
+        <span class="navbar-brand  h1   mb-0"> Pages</span>
+        <a class="color-white" href="NewPage.html">
+          <i class="fas fa-plus " style="color:black"></i
         ></a>
       </nav>
     </div>
+    <nav class="navbar bg-light navbar-light fixed-bottom">
+      <span></span>
+      <a href="../user/Login.html"> <i class="fas fa-user text-light"></i></a>
+    </nav>
 
     <div class="container">
       <ul class="list-group">
         <li class="list-group-item">
-          <a href="/user/:uid/website/:wid/page/:pid/widget"
-            >Address Book App</a
-          >
+          <a href="/user/:uid/website/:wid/page/:pid/widget">Blog Post</a>
           <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
             <i class="fas fa-cog"></i>
           </a>
         </li>
 
         <li class="list-group-item">
-          <a href="/user/:uid/website/:wid/page/:pid/widget">Blogger </a>
+          <a href="/user/:uid/website/:wid/page/:pid/widget">Blogs </a>
           <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
             <i class="fas fa-cog"></i>
           </a>
         </li>
 
         <li class="list-group-item">
-          <a href="/user/:uid/website/:wid/page/:pid/widget">Blogging App</a>
+          <a href="/user/:uid/website/:wid/page/:pid/widget">Home</a>
           <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
             <i class="fas fa-cog"></i>
           </a>
         </li>
 
         <li class="list-group-item">
-          <a href="/user/:uid/website/:wid/page/:pid/widget"
-            >Script Testing App</a
-          >
+          <a href="/user/:uid/website/:wid/page/:pid/widget">About</a>
           <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
             <i class="fas fa-cog"></i>
           </a>
@@ -72,9 +72,5 @@
         </li>
       </ul>
     </div>
-    <nav class="navbar bg-primary navbar-dark fixed-bottom">
-      <span></span>
-      <a href="../user/Login.html"> <i class="fas fa-user text-light"></i></a>
-    </nav>
   </body>
 </html>
