@@ -19,51 +19,124 @@
   </head>
 
   <body>
-    <div>
-      <nav class="navbar bg-primary navbar-dark fixed-top ">
-        <a class="color-white " href="WebsiteList.html"
-          ><i class="fas fa-arrow-left text-light"></i
-        ></a>
-        <a class="color-white" href="../page/PageNew.html">
-            <i class="fas fa-plus text-light"></i
-          ></a>
-        <span class="navbar-brand  h1   mb-0"> <b>Websites</b></span>
-        <a class="color-white" href="WebsiteNew.html">
-        <span class="navbar-brand  h1   mb-0"> <b> New Websites</b></span>
-        <a class="color-white" href="#">
-                <i class="fas fa-check text-light"></i></i
-        ></a>
+    
+   
+      <nav class="navbar bg-primary navbar-dark fixed-top row ">
+        <div class="col-lg-3  d-none d-lg-block">  
+            <div class ="navbar">
+              <div >
+                <a class="color-white " href="WebsiteList.html"
+                 ><i class="fas fa-arrow-left text-light"></i
+                ></a>
+                <span class="navbar-brand  h1 m1-4  mb-0"> <b>Websites</b></span>
+          
+                 </div>
+                <a class="color-white" href="../page/PageNew.html">
+                  <i class="fas fa-plus text-light"></i
+                ></a>
+              </div>
+        </div>
+
+
+        <div class="col-lg-9 navbar">
+           <div>
+                <a class="text-light d-lg-none" href="WebsiteNew.html">
+                <i class="fas fa-arrow-left text-light"></i
+                ></a>
+                <span class="navbar-brand  h1   mb-0"> <b> New Websites</b></span>
+           </div>
+    
+          
+           <a class="color-white" href="#">
+                    <i class="fas fa-check text-light"></i></i
+            ></a>
+          </div>
+        
+
+       
+         </div>
        
       </nav>
-    </div>
 
-    <div class="container">
-            <form>
-              <div class="form-group">
-                <label> <b>Name</b></label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Name for New Website.."
-                />
+      <div class="row">
+        <div class="col-lg-3  d-none d-lg-block ">
+            <div class="container">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a href="../page/PageList.html">Address Book App</a>
+                    <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
+                      <i class="fas fa-cog"></i>
+                    </a>
+                  </li>
+          
+                  <li class="list-group-item">
+                    <a href="../page/PageList.html">Blogger </a>
+                    <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
+                      <i class="fas fa-cog"></i>
+                    </a>
+                  </li>
+          
+                  <li class="list-group-item">
+                    <a href="../page/PageList.html">Blogging App</a>
+                    <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
+                      <i class="fas fa-cog"></i>
+                    </a>
+                  </li>
+          
+                  <li class="list-group-item">
+                    <a href="../page/PageList.html""
+                      >Script Testing App</a
+                    >
+                    <a class="float-right" href="../page/PageList.html"">
+                      <i class="fas fa-cog"></i>
+                    </a>
+                  </li>
+          
+                  <li class="list-group-item">
+                    <a href="/user/:uid/website/:wid/page/:pid/widget">Contact Us</a>
+                    <a class="float-right" href="/user/:uid/website/:wid/page/:pid">
+                      <i class="fas fa-cog"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div class="form-group">
-                <label> <b>Description</b></label>
-                <textarea
-                  class="form-control"
-                  rows="5"
-                  id="comment"
-                  placeholder="Description for New Website.."
-                ></textarea>
+        </div>
+
+
+
+        <div class="col-lg-9">
+
+            <div class="container">
+                <form>
+                  <div class="form-group">
+                    <label> <b>Name</b></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name for New Website.."
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label> <b>Description</b></label>
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      id="comment"
+                      placeholder="Description for New Website.."
+                    ></textarea>
+                  </div>
+                  
+                  <div>
+                  <button type="button" class="btn btn-warning btn-lg btn-space">Cancel</button>
+                  <span></span>
+                  <button type="button" class="btn btn-success btn-lg float-right">Submit</button>
+                </div>
+                </form>
               </div>
-              
-              <div>
-              <button type="button" class="btn btn-warning btn-lg btn-space">Cancel</button>
-              <span></span>
-              <button type="button" class="btn btn-success btn-lg float-right">Submit</button>
-            </div>
-            </form>
-          </div>
+        </div>
+      </div>
+
+    
 
           <nav class="navbar bg-primary navbar-dark fixed-bottom">
                 <span></span>

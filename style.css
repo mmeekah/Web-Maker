@@ -3,7 +3,8 @@ body {
   padding-bottom: 75px;
 }
 
-a {
+a,
+a:hover {
   /* margin-top: 25px; */
   padding: auto;
 }
