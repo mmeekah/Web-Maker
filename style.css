@@ -1,5 +1,5 @@
 body {
-  padding-top: 75px;
+  padding-top: 175px;
   padding-bottom: 75px;
 }
 
@@ -14,10 +14,6 @@ a:hover {
 }
 
 label {
-  margin-top: 25px;
-  font-weight: bold;
-}
-.navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -29,7 +25,7 @@ label {
 .absolute-right {
   position: absolute;
   right: 15px;
-  z-index: 2;
+  z-index: 10;
 }
 
 .container-fluid {
