@@ -1,5 +1,5 @@
 body {
-  padding-top: 175px;
+  padding-top: 75px;
   padding-bottom: 75px;
 }
 
@@ -7,6 +7,7 @@ a,
 a:hover {
   /* margin-top: 25px; */
   padding: auto;
+  text-decoration: none;
 }
 
 .form-group {
